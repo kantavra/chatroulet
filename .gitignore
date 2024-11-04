@@ -1,0 +1,34 @@
+# Виртуальные окружения
+venv/
+.env/
+
+# Кэш и временные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Файлы конфигурации
+*.env
+config.json
+
+# Тесты и отчеты
+*.cover
+*.log
+nosetests.xml
+coverage.xml
+notes.txt
+struct.txt
+*.egg-info/
+dist/
+build/
+
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# временно игнорируем папку
+templates
